@@ -1,0 +1,25 @@
+---
+title: "R Notebook"
+output: html_notebook
+author: "Juan de Toro"
+---
+
+# Install packages and libraries
+
+```{r}
+install.packages("swirl")
+library(swirl)
+install_from_swirl("R Programming")
+install_from_swirl("Getting and Cleaning Data")
+install_from_swirl("Exploratory Data Analysis")
+install_from_swirl("Open Intro")
+install_from_swirl("Regression Models")
+install_from_swirl("Statistical Inference")
+```
+
+# Start swirls
+
+```{r}
+swirl()
+```
+
